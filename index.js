@@ -21,7 +21,7 @@ var api = new ParseServer({
         ios: {
             pfx: '/ParseTwitterFeb2017PushCert.p12',
             passphrase: '',
-            bundlerId: 'com.ios-connect.Parse-Twitter1',
+            bundleId: 'com.ios-connect.Parse-Twitter1',
             production: false
         }
     },
