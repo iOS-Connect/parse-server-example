@@ -19,7 +19,7 @@ var api = new ParseServer({
   serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse',  // Don't forget to change to https if needed
     push: {
         ios: {
-            pfx: '/ParseTwitterFeb2017PushCert.p12',
+            pfx: 'ParseTwitterFeb2017PushCert.p12',
             passphrase: '',
             bundleId: 'com.ios-connect.Parse-Twitter1',
             production: false
